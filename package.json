@@ -1,0 +1,33 @@
+{
+  "name": "file_uploader",
+  "version": "1.0.0",
+  "description": "File Upload",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayuboketch/file_uploader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayuboketch/file_uploader/issues"
+  },
+  "homepage": "https://github.com/ayuboketch/file_uploader#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.1",
+    "better-sqlite3": "^11.0.0",
+    "xlsx": "^0.18.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
