@@ -3,7 +3,7 @@
 <img width="589" height="603" alt="Screenshot 2025-09-29 at 17 08 03" src="https://github.com/user-attachments/assets/86c3146a-eca5-4547-bc6d-3687025371cf" />
 
 ```markdown
-# 📤 Excel Upload Tech-Test – Question 2
+# 📤 Excel Upload
 
 A **stand-alone** Node service that exposes an `/api/upload` endpoint:  
 accept an `.xlsx` file → parse → bulk-insert rows into **SQLite** → return row count.
